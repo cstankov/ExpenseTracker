@@ -14,7 +14,7 @@ app.use("/expenses", postRoutes);
 
 // Paste your own connection string here from MongoDB
 const CONNECTION_URL =
-  "mongodb+srv://cole:cole@cluster0.trt4r.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
+  "mongodb+srv://<username>:<password>@cluster0.trt4r.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
 const PORT = process.env.PORT || 5000;
 
 mongoose
